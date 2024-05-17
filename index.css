@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body {
+    height: 100%;
+    width: 100%;
+}
+body {
+    background-color: black;
+}
+nav {
+    height: 100px;
+    width: 100%;
+    /* background-color: rgb(87, 86, 86); */
+    display: flex;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.nav1 {
+    display: flex;
+    gap: 40px;
+    margin-left: 70px;
+    flex-wrap: wrap;
+}
+.nav2 {
+    display: flex;
+    gap: 30px;
+    margin-right: 30px;
+    flex-wrap: wrap;
+}
+button {
+    padding: 10px 17px;
+    border-radius: 25px;
+}
+.container {
+    display: flex;
+    gap: 30px;margin-top: 50px;
+}
+.cont1 {
+    height: 400px;
+    width: 500px;
+    object-fit: cover;
+    flex-wrap: wrap;
+}
+.cont2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    font-size: 70px;
+    flex-wrap: wrap;
+}
+img {
+    height: 400px;
+    width: 500px;
+    object-fit: cover;
+}
+.btn3 {
+    display: flex;
+    margin-left: 60%;
+    font-size: 35px;
+    border-radius: 25px;
+}
+button a {
+    text-decoration: none;
+    color: black;
+}
+h2 a {
+    text-decoration: none;
+    color: white;
+}
+button {
+    cursor: pointer;
+}
+.txt4 a {
+    text-decoration: none;
+    color: white;
+}
+.txt5 a {
+    text-decoration: none;
+    color: white;
+}
+.txt6 a {
+    text-decoration: none;
+    color: white;
+}
